@@ -1,0 +1,103 @@
+#banner {
+    width: 100%;
+}
+
+header {
+    background: #BBBBBB;
+    /*cor de fundo cinza apenas no headr*/
+    padding: 5px 0;
+    /*para deixar o espaçamento do menu e imagem perfeitos p o site*/
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.caixa {
+    width: 940px;
+    /*margem padrão web*/
+    position: relative;
+    /*foi usado para trazer o navegardo para a margem do width da caixa*/
+    margin: 0 auto;
+    /*para cima e baixo zero de margem, e o auto serve para o calculo ser feito automatico da direita e esqueda, centraliza automatico*/
+}
+
+nav {
+    position: absolute;
+    /*a posição absoluta server para deixar a objeto solto sempre usar para posicionar algo*/
+    top: 20px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    /*colocar os intens em linha*/
+    margin: 0 0 0 15px;
+    /*colocar um espaçamento entre os itens a esqueda*/
+}
+
+nav a {
+    text-transform: uppercase;
+    /*colcar o texto em Maiusco*/
+    color: #000000;
+    /*cor do texto*/
+    font-weight: bold;
+    /*fonte negrito*/
+    font-size: 22px;
+    /*tamanho da fonte*/
+    text-decoration: none;
+    /*tira toda formatação do texto*/
+}
+
+nav a:hover {
+    /*hover e pra adicionar comportamento quando o mouse estiver em cima do item*/
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px
+}
+
+em strong {
+    color: #FF0000;
+}
+
+.itens {
+    font-style: italic
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
